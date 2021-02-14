@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- https://www.youtube.com/watch?v=OSQ1LnU9SCw -->
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JStab.ex</title>
+  <link rel="stylesheet" href="tab.css">
+</head>
+<body>
+
+  <div class="tab" id="js-tab">
+    <div class="tab-nav">
+      <!-- data-nav データ属性を勝手に付与できる　idは使えないときにおすすめ -->
+      <a href="" class="tab-nab-item is-active" data-nav="0">Tab-0</a>
+      <a href="" class="tab-nab-item" data-nav="1">Tab-1</a>
+      <a href="" class="tab-nab-item" data-nav="2">Tab-2</a>
+    </div>
+    <div class="tab-contents">
+      <div class="tab-contents-item" data-content="0">
+        タブその０
+      </div>
+      <div class="tab-contents-item" data-content="1">
+        タブその１
+      </div>
+      <div class="tab-contents-item" data-content="2">
+        タブその２
+      </div>
+    </div>
+  </div>
+
+<script type="text/javascript" src="tab.js"></script>
+</body>
+</html>
